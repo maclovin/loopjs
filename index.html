@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>LoopJS</title>
+		<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/styles/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+	</head>
+	<body>
+		<span id="isHTML5"></span>
+
+		<img src="logo.jpg" class="logo">
+
+		<form>
+			<ul class="metronome">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+			<textarea rows="12" id="song">120</textarea>
+			<input type="button" value="Commit (Play)" onclick="Song.play();"/>
+		</form>
+
+		<div id="mixer"></div>
+
+		<script src="assets/scripts/jquery.min.js"></script>
+		<script src="assets/scripts/bootstrap.min.js"></script>
+		<script src="assets/scripts/soundmanager2.js"></script>
+		<script src="assets/scripts/song.js"></script>
+		<script src="assets/scripts/interpreter.js"></script>
+		<script src="assets/scripts/main.js"></script>
+	</body>
+</html>

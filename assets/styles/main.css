@@ -1,0 +1,105 @@
+html, body {
+			margin: 15px;
+			padding: 0px;
+			background: #FFFAD5;
+		}
+
+		#song {
+			font-family:'Courier New';
+			font-size: 22px;
+			font-weight: bold;
+			margin: 0 auto;
+			background: #002b36;
+			color: #fdf6e3;
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin: 0px;
+			border:none;
+			outline: none;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+		#mixer {
+			font-family: "Courier-New", Courier;
+		}
+
+		.instrument {
+			background: #F4EFC9;
+			width: 200px;
+			padding: 10px 20px;
+			display: inline-block;
+			margin: 0 26px 15px 0;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+		.label-instrument {
+			font-size: 22px;
+			color: #fff;
+		}
+
+		.logo {
+			width: 130px;
+		}
+
+		.metronome {
+			list-style-type: square;
+			font-size: 30px;
+			display: block;
+			margin: 0;
+			padding: 0;
+			float: right;
+		}
+
+		.metronome li {
+			display: inline-block;
+			width: 12px;
+			height: 12px;
+			background: #666;
+		}
+
+		.btn {
+			margin: 0px 15px 15px 0px;
+			background: #6C6C6C;
+			padding: 8px 10px;
+			color: #fff;
+			font-family: Helvetica, Arial;
+			font-weight: bold;
+			border: none;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+
+		.btn:hover {
+			color: #fff;
+		}
+
+		.btn-mute {
+			margin: 0px 15px 15px 0px;
+			background: #F66;
+			padding: 8px 10px;
+			color: #fff;
+			font-family: Helvetica, Arial;
+			font-weight: bold;
+			border: none;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
+		.btn-solo {
+			margin: 0px 15px 15px 0px;
+			background: #77C6FF;
+			padding: 8px 10px;
+			color: #fff;
+			font-family: Helvetica, Arial;
+			font-weight: bold;
+			border: none;
+			-webkit-border-radius: 2px;
+			-moz-border-radius: 2px;
+			border-radius: 2px;
+		}
